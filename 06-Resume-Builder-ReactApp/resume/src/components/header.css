@@ -1,0 +1,21 @@
+
+.header{
+    display: flex;
+    border-bottom: solid grey;
+}
+
+img{
+    width: 150px;
+}
+
+.left-content{
+    margin-block: 10px;
+    margin-inline: 25px;
+}
+
+.right-content{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
