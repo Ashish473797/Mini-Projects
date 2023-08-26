@@ -6,7 +6,7 @@ const userData = {
     skills: ["C/C++", "HTML/CSS", "Javascript", "DSA"],
     language:["English", "Hindi"],
     hobbies: ["Reading Blogs", "Singing&Dancing", "Badminton&Chess"],
-    Education: [{degree: "MCA", collage: "Chandigarh University", cgpa: "7.3"}, {degree: "BCA", collage: "School of Management Sciences", cgpa: "6.5"}],
+    education: [{degree: "MCA", collage: "Chandigarh University", cgpa: "7.3"}, {degree: "BCA", collage: "School of Management Sciences", cgpa: "6.5"}],
     certificates: ["BootCamp in C++, DSA and IOT (11/2022)", "Foundation of User Experience(UX) Design (12/2022)", "Problem Solving (Basic) (08/2022)"],
     projects: [{
       name: "Realtime Chat Application (02/2023 - 05/2023)",
