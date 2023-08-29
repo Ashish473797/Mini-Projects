@@ -7,6 +7,7 @@ import RighttHeadings from './components/rightHeadings';
 function Resume() {
   return (
     <>
+      <div className='print' onClick={()=>{window.print()}}>Print</div>
       <div className='page'>
         <Header {...userData}/>
         <div className='flex'>

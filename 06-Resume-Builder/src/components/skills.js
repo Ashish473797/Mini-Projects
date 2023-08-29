@@ -4,7 +4,7 @@ function Skill({skills}){
 
     return (
         <>
-        <h2 className="skills">Skills</h2>
+        {skills.length === 0 ? null : <><h2 className="skills">Skills</h2>
         <div>
             {
                 skills.map((element)=>{
@@ -13,7 +13,7 @@ function Skill({skills}){
                     )
                 })
             }
-        </div>
+        </div></>}
         </>
     )
 }
