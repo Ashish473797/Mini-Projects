@@ -1,8 +1,11 @@
+
+let email = "ashish473797@gmail.com"
+
 const userData = {
     name: "Ashish Kumar Gupta",
     profession: "Software Developer",
     about: "I have good knowledge of C, C++, HTML, CSS and Javascript and also Data structure and currently i am learning React.",
-    persoanalDetail: [{email: "ashish473797@gmail.com", mobileNo: "9115271969",location: "Varanasi, India", }],
+    persoanalDetail: [{email: `${email}`, mobileNo: "9115271969",location: "Varanasi, India", }],
     skills: ["C/C++", "HTML/CSS", "Javascript", "DSA"],
     language:["English", "Hindi"],
     hobbies: ["Reading Blogs", "Singing&Dancing", "Badminton&Chess"],
