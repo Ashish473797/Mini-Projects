@@ -5,13 +5,14 @@ import userData from '../assets/data'
 function Editor(){
 
     function handleClick(e){
-        console.log(e);
+        e.preventDefault()
+        console.log(document.querySelector("#email").value);
     }
 
     return(
         <>
             <div className='form'>
-                <form action='' method='GET'>
+                <form action='../assets/data.js' method='GET'>
                 <h2>Personal Details</h2>
                 <label htmlFor='email'>E-mail: </label><br/>
                 <input type='email' id='email' name='email' defaultValue={`${userData.persoanalDetail[0].email}`}/>
