@@ -11,7 +11,7 @@ let currentQuestionIndex = 0;
 let score = 0;
 
 async function startQuiz() {
-  const data = await fetch("https://quizapi.io/api/v1/questions?apiKey=vpW4zdI1T4LrxzXJZP2r2zmyGngQAieI1Y05yK9S&difficulty=Easy&limit=5")
+  const data = await fetch("https://quizapi.io/api/v1/questions?apiKey=vpW4zdI1T4LrxzXJZP2r2zmyGngQAieI1Y05yK9S&difficulty=Easy&category=code&limit=5")
   questions = await data.json();
   console.log(questions);
   currentQuestionIndex = 0;
@@ -69,7 +69,7 @@ function resetState() {
 
 function showScore(){
   resetState();
-  questionElement.innerHTML = `YOUR SCORE IS <span>${score}</span>`;
+  questionElement.innerHTML = `YOUR SCORED <span>${score}</span> OUT OF ${questions.length}`;
   nextBtn.innerHTML = "Try Again";
   nextBtn.style.display = "block";
 }
