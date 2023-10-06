@@ -29,7 +29,7 @@ function showQuestion() {
   for(key in currQuestion.answers){
     if(currQuestion.answers[key] != null){
       const button = document.createElement("button");
-      button.innerHTML = currQuestion.answers[key];
+      button.innerText = currQuestion.answers[key];
       button.classList.add("btn");
       ansBtn.appendChild(button);
       correctKey = `${key}_correct`;
