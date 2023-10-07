@@ -24,7 +24,7 @@ function showQuestion() {
   resetState();
   let currQuestion = questions[currentQuestionIndex];
   let questionNo = currentQuestionIndex + 1;
-  questionElement.innerHTML = `${questionNo}. ${currQuestion.question}`;
+  questionElement.innerText = `${questionNo}. ${currQuestion.question}`;
 
   for(key in currQuestion.answers){
     if(currQuestion.answers[key] != null){
