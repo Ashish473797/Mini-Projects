@@ -10,3 +10,27 @@ html, body{
     height: 100%;
     font-family: 'Gilroy', sans-serif;
 }
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0b0423;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left, .right{
+    width: 300px;
+    min-height: 400px;
+    margin: 20px;
+    border: 2px dashed #fff;
+}
+
+.list{
+    background-color: #e91e63;
+    color: #ffffff;
+    margin: 18px;
+    padding: 16px 12px;
+    border-radius: 4px;
+}
